@@ -1,0 +1,36 @@
+.a{
+    &-margin{
+        margin: $margin;
+
+        &-l{
+            margin-left: $margin;
+            &-s{
+                margin-left: $margin - 10;
+            }
+        }
+
+        &-r{
+            margin-right: $margin;
+            &-s{
+                margin-right: $margin - 10;
+            }
+        }
+
+        &-t{
+            margin-top: $margin;
+            &-2x{
+                margin-top: $margin * 2;
+            }
+            &-s{
+                margin-top: $margin - 10;
+            }
+        }
+
+        &-b{
+            margin-bottom:$margin;
+            &-s{
+                margin-bottom: $margin - 10;
+            }
+        }
+    }
+}

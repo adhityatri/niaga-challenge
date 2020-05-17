@@ -1,0 +1,20 @@
+.a{
+    &-list{
+        &.horizontal{
+            li{
+                display : inline;
+                margin-left: $margin;
+            }       
+        }
+
+        &-bordered{
+            li{
+                @include border(darken(white, 5%), 1px);
+                padding: $padding - 5;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+    }
+}

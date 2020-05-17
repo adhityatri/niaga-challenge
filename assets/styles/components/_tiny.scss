@@ -1,0 +1,39 @@
+.a{
+    &-bookmark{
+        position: relative; 
+        height: 50px; 
+        min-width: 30px; 
+        padding: 0px; 
+        -webkit-transform: rotate(0deg) skew(0deg); 
+        transform: rotate(0deg) skew(0deg); 
+        border-left: 15px solid $primary-color; 
+        border-right: 15px solid $primary-color; 
+        border-bottom: 15px solid transparent; 
+    }
+
+    &-check{
+        color: green;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    &-border{
+        &-bc{
+            position: relative;
+            &:before{
+                position: absolute;
+                content: "";
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 5px;
+                width: 100px;
+                background-color: darken(white, 10%);
+            }
+            // @include border-direction("bottom", darken(white, 5%), 3px);
+        }
+        &-b{
+            @include border-direction('bottom', darken(white, 5%), 1px);
+        }
+    }
+}

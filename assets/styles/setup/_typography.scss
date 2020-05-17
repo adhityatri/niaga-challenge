@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("~assets/fonts/montserrat/Montserrat-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url("~assets/fonts/montserrat/Montserrat-Black.otf") format('opentype');
+    font-weight: black;
+    font-style: black;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("~assets/fonts/montserrat/Montserrat-Bold.otf") format('opentype');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url("~assets/fonts/montserrat/Montserrat-Light.otf") format('opentype');
+    font-weight: lighter;
+    font-style: lighter;
+}
+
+.a-subfont{
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+.a{
+    &-title{
+        &-large{
+            font-size: 3em;
+            color: lighten($color: black, $amount: 25);
+        }
+        &-light{
+            font-size: 2.5em;
+            font-size: 400;
+            color: lighten($color: black, $amount: 25);
+        }
+    }
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.17em;
+}
+h4{
+    font-size: 1em;
+}
+h5{
+    font-size: .83em;
+}
+h6{
+    font-size: .67em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bolder;
+}

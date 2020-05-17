@@ -1,0 +1,16 @@
+@mixin shadow($shadowTop, $shadowBottom) {
+    box-shadow: 5px 5px 15px rgba($shadowBottom, .06),
+        -4px -4px 10px rgba($shadowTop, 1);
+}
+
+@mixin border($color, $thickness) {
+    border: $thickness solid $color;
+}
+
+@mixin border-direction($direction, $color, $thickness) {
+    border-#{$direction}: $thickness solid $color;
+}
+
+@mixin rounded($rounded) {
+    border-radius: $rounded;
+}

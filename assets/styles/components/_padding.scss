@@ -1,0 +1,39 @@
+.a{
+    &-padding{
+        padding: $padding;
+
+        &-l{
+            padding-left: $padding;
+            &-s{
+                padding-left: $padding - 10;
+            }
+        }
+
+        &-r{
+            padding-right: $padding;
+            &-s{
+                padding-right: $padding - 10;
+            }
+        }
+
+        &-t{
+            padding-top: $padding;
+            &-s{
+                padding-top: $padding - 10;
+            }
+            &-2x{
+                padding-top: $padding * 2;
+            }
+        }
+
+        &-b{
+            padding-bottom:$padding;
+            &-s{
+                padding-bottom: $padding - 10;
+            }
+            &-2x{
+                padding-bottom: $padding * 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.a{
+    &-topbar{
+        padding-top: $padding - 5;
+        padding-bottom: $padding - 5;
+        @include border-direction('bottom', darken(white, 5%), 1px);
+    }
+    &-nav{
+        min-height: 70px;
+        margin-bottom: $margin;
+        @include border-direction('bottom', darken(white, 5%), 1px);
+        &-logo{
+            height: 30px;
+        }
+    }
+}

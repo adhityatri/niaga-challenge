@@ -1,0 +1,7 @@
+.a{
+    &-hero{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        @include border-direction('bottom', darken(white, 5%), 1px);
+    }
+}
