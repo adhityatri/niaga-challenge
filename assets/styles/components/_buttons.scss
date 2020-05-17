@@ -1,0 +1,22 @@
+.a{
+    &-button{
+        &-rounded{
+            border-radius: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        &-circle{
+            border-radius: 50px;
+            padding: 10px;
+            width: 50px;
+            border: 0;
+            transition: all .3s ease-in-out;
+
+            &:hover{
+                background-color: $primary-color;
+                color: white;
+            }
+        }
+    }
+}

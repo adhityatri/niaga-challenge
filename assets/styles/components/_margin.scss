@@ -2,6 +2,10 @@
     &-margin{
         margin: $margin;
 
+        &-remove{
+            margin: 0 !important;
+        }
+
         &-l{
             margin-left: $margin;
             &-s{

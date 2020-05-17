@@ -1,7 +1,42 @@
-.a{
-    &-card{
-        &-thumbnail{
-            max-width: 200px;
-        }
+.a {
+  &-card {
+    &-thumbnail {
+      max-width: 200px;
     }
+
+    &-deck {
+      .card {
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+        position: relative;
+
+        &-header {
+          background-color: white;
+        }
+
+        &-primary {
+          background-color: $primary-color;
+          color: white;
+          border-bottom-color: transparent !important;
+
+          &.darken {
+            background-color: darken($color: $primary-color, $amount: 5);
+          }
+        }
+
+        &.bold {
+          border-color: $primary-color;
+
+          .card-header {
+            background-color: $primary-color;
+            color: white;
+            text-decoration: none;
+            text-shadow: none;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
 }

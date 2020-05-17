@@ -31,7 +31,7 @@ export default {
         }
     }
     .check{
-        color: green;
+        color: #2ecc71;
         font-size: 16px;
         margin-right: 10px;
     }

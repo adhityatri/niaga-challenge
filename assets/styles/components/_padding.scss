@@ -2,6 +2,10 @@
     &-padding{
         padding: $padding;
 
+        &-small{
+            padding: $padding - 10;
+        }
+
         &-l{
             padding-left: $padding;
             &-s{

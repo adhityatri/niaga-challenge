@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url("~assets/fonts/montserrat/Montserrat-Regular.otf") format('opentype');
@@ -38,6 +38,12 @@
             font-size: 2.5em;
             font-size: 400;
             color: lighten($color: black, $amount: 25);
+        }
+    }
+
+    &-text{
+        &-through{
+            text-decoration: line-through;
         }
     }
 }

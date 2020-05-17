@@ -2,10 +2,10 @@
   <div>
     <div class="a-flex a-between a-topbar a-container">
       <div class="a-topbar-info">
-        <i class="fas fa-tag" />
-        <span>{{info.latestInfo[0]}}</span>
+        <span class="a-ribbon-tag"><i class="fas fa-tag" /></span>
+        <span class="info">{{info.latestInfo[0]}}</span>
       </div>
-      <ul class="a-topbar-cs a-list horizontal">
+      <ul class="a-topbar-cs a-list horizontal a-menu">
         <li>
           <i class="fas fa-phone-alt a-padding-r-s" />
           <span>{{info.phoneNumber}}</span>
@@ -22,7 +22,7 @@
     </div>
     <div class="a-nav a-container a-flex a-between a-align-center">
       <img class="a-nav-logo" src="~assets/images/NiagaHoster.png" alt="logo" />
-      <ul class="a-list horizontal">
+      <ul class="a-list horizontal a-menu">
         <li>Hosting</li>
         <li>Domain</li>
         <li>Server</li>

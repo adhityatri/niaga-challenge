@@ -1,0 +1,61 @@
+[
+    {
+        "type" : "Bayi",
+        "diskon" : "19.900",
+        "price" : "14.900",
+        "users": "938",
+        "resources": "0.5X",
+        "diskspace" : "500 MB",
+        "bandwidth" : "Unlimited",
+        "database" : "Unlimited",
+        "domain" : "1 Domain",
+        "backup" : "Instant Backup",
+        "ssl" : "Unlimited SSL"
+    },
+    {
+        "type" : "Pelajar",
+        "diskon" : "45.900",
+        "price" : "23.450",
+        "users": "4.168",
+        "resources": "1X",
+        "diskspace" : "Unlimited",
+        "bandwidth" : "Unlimited",
+        "database" : "Unlimited",
+        "domain" : "10 Addon Domains",
+        "backup" : "Instant Backup",
+        "ssl" : "Unlimited SSL",
+        "pop3" : "Unlimited"
+    },
+    {
+        "type" : "Personal",
+        "diskon" : "58.900",
+        "price" : "38.900",
+        "users": "10.017",
+        "resources": "2X",
+        "diskspace" : "Unlimited",
+        "bandwidth" : "Unlimited",
+        "database" : "Unlimited",
+        "domain" : "Unlimited Addon Domains",
+        "backup" : "Instant Backup",
+        "ssl" : "Unlimited SSL",
+        "pop3" : "Unlimited",
+        "mailProtection" : "SpamAssasin"
+    },
+    {
+        "type" : "Bisnis",
+        "diskon" : "109.00",
+        "price" : "65.900",
+        "users": "3.552",
+        "resources": "3X",
+        "diskspace" : "Unlimited",
+        "bandwidth" : "Unlimited",
+        "database" : "Unlimited",
+        "domain" : "Unlimited Addon Domains",
+        "backup" : "Magic Auto Backup & Restore",
+        "ssl" : "Unlimited SSL",
+        "nameServer" : "Private",
+        "pop3" : "Unlimited",
+        "mailProtection" : "SpamExpert Pro",
+        "layanan" : "Prioritas"
+    }
+]

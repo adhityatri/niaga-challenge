@@ -1,11 +1,40 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
 }
 
 .a {
   &-container {
     padding: 0 4%;
+
+    &-share{
+      background-color: darken($color: white, $amount: 5);
+      min-height: 70px;
+      font-size: 16px;
+      font-weight: lighter;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-needhelp{
+      background-color: $primary-color;
+      color: white;
+      min-height: 130px;
+      font-size: 16px;
+      font-weight: lighter;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-footer{
+      background-color: darken(white, 80%);
+      min-height: 50px;
+      padding-top: 40px;
+      color: white;
+      font-weight: lighter;
+    }
   }
 }

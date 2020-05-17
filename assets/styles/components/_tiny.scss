@@ -12,7 +12,7 @@
     }
 
     &-check{
-        color: green;
+        color: $green-color;
         font-size: 16px;
         margin-right: 10px;
     }
@@ -34,6 +34,17 @@
         }
         &-b{
             @include border-direction('bottom', darken(white, 5%), 1px);
+        }
+    }
+
+    &-link{
+        &-muted{
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                color: darken(white, 5%);
+            }
         }
     }
 }

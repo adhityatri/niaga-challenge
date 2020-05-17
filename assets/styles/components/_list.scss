@@ -17,4 +17,17 @@
             }
         }
     }
+
+    &-menu{
+        li{
+            letter-spacing: .5px;
+            &:hover{
+                font-weight: bold;
+                color: $primary-color;
+                transition: all .2s ease-in-out;
+                cursor: pointer;
+                position: relative;
+            }
+        }
+    }
 }
